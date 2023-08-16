@@ -1,4 +1,8 @@
-.App {
+.orangeSquare {
+  background-color: #f5913e;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -36,4 +40,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
