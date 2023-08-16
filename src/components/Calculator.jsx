@@ -1,37 +1,36 @@
 import React from 'react';
+import Inputfunction from './input';
 
 const Calculator = () => (
   <section>
-    <div>
-      <input placeholder="0"></input>
-    </div>
-    <div>
-      <button type="button">A/C</button>
-      <button type="button">+/-</button>
-      <button type="button">%</button>
+    <Inputfunction />
+    <div className="minus1margin">
+      <button className="clearSquare" type="button">A/C</button>
+      <button className="clearSquare" type="button">+/-</button>
+      <button className="clearSquare" type="button">%</button>
       <button className="orangeSquare" type="button">÷</button>
     </div>
-    <div>
-      <button type="button">7</button>
-      <button type="button">8</button>
-      <button type="button">9</button>
+    <div className="minus1margin">
+      <button className="clearSquare" type="button">7</button>
+      <button className="clearSquare" type="button">8</button>
+      <button className="clearSquare" type="button">9</button>
       <button className="orangeSquare" type="button">x</button>
     </div>
-    <div>
-      <button type="button">4</button>
-      <button type="button">5</button>
-      <button type="button">6</button>
+    <div className="minus1margin">
+      <button className="clearSquare" type="button">4</button>
+      <button className="clearSquare" type="button">5</button>
+      <button className="clearSquare" type="button">6</button>
       <button className="orangeSquare" type="button">-</button>
     </div>
-    <div>
-      <button type="button">1</button>
-      <button type="button">2</button>
-      <button type="button">3</button>
+    <div className="minus1margin">
+      <button className="clearSquare" type="button">1</button>
+      <button className="clearSquare" type="button">2</button>
+      <button className="clearSquare" type="button">3</button>
       <button className="orangeSquare" type="button">+</button>
     </div>
     <div>
-      <button type="button">0</button>
-      <button type="button">.</button>
+      <button className="clearSquare2" type="button">0</button>
+      <button className="clearSquare" type="button">.</button>
       <button className="orangeSquare" type="button">=</button>
     </div>
   </section>

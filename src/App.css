@@ -1,5 +1,31 @@
+.inputStyle {
+  background-color: #858694;
+  color: white;
+  text-align: right;
+  border: 1px solid lightgray;
+  width: 194px;
+}
+
 .orangeSquare {
   background-color: #f5913e;
+  border: 1px solid lightgray;
+  width: 50px;
+}
+
+.clearSquare {
+  background-color: #e0e0e0;
+  border: 1px solid lightgray;
+  width: 50px;
+}
+
+.clearSquare2 {
+  background-color: #e0e0e0;
+  border: 1px solid lightgray;
+  width: 100px;
+}
+
+.minus1margin {
+  margin-bottom: -1px;
 }
 
 /* .App {
