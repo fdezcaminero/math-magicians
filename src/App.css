@@ -35,3 +35,7 @@
 .minus1margin {
   margin-bottom: -1px;
 }
+
+.borderStyles {
+  border: 1px solid blue;
+}
