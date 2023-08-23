@@ -37,6 +37,28 @@
 }
 
 .borderStyles {
-  border: 1px solid black;
+  border: 1px solid purple;
   width: 75%;
+}
+
+.h1Style {
+  color: purple;
+}
+
+.pStyle {
+  color: purple;
+}
+
+.navstyle {
+  list-style-type: none;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+.navSection {
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,4 +1,3 @@
-// App.js
 import {
   BrowserRouter, Routes, Route, Outlet, Link,
 } from 'react-router-dom';
@@ -9,36 +8,38 @@ import './App.css';
 
 function Layout() {
   return (
-    <>
-      <h1>Math magicians</h1>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/calculator">Calculator</Link>
-        </li>
-        <li>
-          <Link to="/quotes">Quotes</Link>
-        </li>
-      </ul>
+    <main>
+      <section className="navSection">
+        <h1>Math Magicians</h1>
+        <ul className="navstyle">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/calculator">Calculator</Link>
+          </li>
+          <li>
+            <Link to="/quotes">Quotes</Link>
+          </li>
+        </ul>
+      </section>
       <Outlet />
-    </>
+    </main>
   );
 }
 
 function App() {
   return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="/calculator" element={<Calculator />} />
-            <Route path="/quotes" element={<Quotes />} />
-            <Route path="*" element={<div>If page not found it goes here</div>} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quotes" element={<Quotes />} />
+          <Route path="*" element={<div>If page not found it goes here</div>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
