@@ -17,11 +17,14 @@ function Home() {
       </p>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, et molestiae quaerat atque distinctio eos laboriosam?
-        Omnis aperiam, voluptatibus iusto pariatur quam animi magnam, assumenda quos soluta, quibusdam dolores hic?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Dolores, et molestiae quaerat atque distinctio eos laboriosam?
+        Omnis aperiam, voluptatibus iusto pariatur quam animi magnam,
+        assumenda quos soluta, quibusdam dolores hic?
       </p>
 
-      <p>Lorem ipsum dolor,
+      <p>
+        Lorem ipsum dolor,
         sit amet consectetur adipisicing elit.
         Maxime officia a perferendis fugiat ducimus,
         perspiciatis reiciendis praesentium,
@@ -31,18 +34,19 @@ function Home() {
         beatae inventore sit totam, molestias ab eligendi
         accusamus autem dolor ipsam maxime placeat laboriosam voluptas
         earum enim! Aut ipsum omnis ex explicabo fuga praesentium beatae
-        iusto?</p>
+        iusto?
+      </p>
 
-        <p>
-          Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit.
-          Sapiente deleniti repellat fugit possimus similique?
-          Accusamus suscipit, doloribus quaerat facere necessitatibus
-          deserunt dicta reiciendis cum, nulla nisi asperiores culpa iste odio.
-          Voluptatem, accusamus cum. Dicta minima sed dolorem vitae quos quidem,
-          eius, consequatur tenetur, amet veniam et porro perferendis numquam corrupti
-          odit suscipit quae? Atque assumenda nulla, nisi veniam tenetur alias.
-        </p>
+      <p>
+        Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit.
+        Sapiente deleniti repellat fugit possimus similique?
+        Accusamus suscipit, doloribus quaerat facere necessitatibus
+        deserunt dicta reiciendis cum, nulla nisi asperiores culpa iste odio.
+        Voluptatem, accusamus cum. Dicta minima sed dolorem vitae quos quidem,
+        eius, consequatur tenetur, amet veniam et porro perferendis numquam corrupti
+        odit suscipit quae? Atque assumenda nulla, nisi veniam tenetur alias.
+      </p>
     </section>
   );
 }
