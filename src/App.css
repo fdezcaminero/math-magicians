@@ -51,6 +51,11 @@
 
 .navstyle {
   list-style-type: none;
+  display: flex;
+}
+
+.navstyle li {
+  padding-right: 5px;
 }
 
 a {
@@ -59,6 +64,11 @@ a {
 }
 
 .navSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dispflex1 {
   display: flex;
   justify-content: space-between;
 }
