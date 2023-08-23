@@ -1,6 +1,6 @@
 // App.js
 import {
-  BrowserRouter, Routes, Route, Outlet,
+  BrowserRouter, Routes, Route, Outlet, Link,
 } from 'react-router-dom';
 import Home from './components/Home';
 import Calculator from './components/Calculator';
@@ -11,6 +11,17 @@ function Layout() {
   return (
     <>
       <h1>Math magicians</h1>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/calculator">Calculator</Link>
+        </li>
+        <li>
+          <Link to="/quotes">Quotes</Link>
+        </li>
+      </ul>
       <Outlet />
     </>
   );
@@ -18,20 +29,16 @@ function Layout() {
 
 function App() {
   return (
-    <section>
-      <Home />
-      <Layout />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<div>Home page</div>} />
+            <Route index element={<Home />} />
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/quotes" element={<Quotes />} />
             <Route path="*" element={<div>If page not found it goes here</div>} />
           </Route>
         </Routes>
       </BrowserRouter>
-    </section>
   );
 }
 
